@@ -1,0 +1,33 @@
+int main()
+{
+    //declare variables
+    int number;
+    int n;
+
+    cout << "Enter value less than 100: ";
+    cin >> n; //take user input
+
+
+    while (n <= 100) //loop only if n equals 100 or less
+    {
+        for(number = n; number <= n; number++) //for loop to increment int value
+        {
+            if(number % 2 !=0) //determines if odd
+            {
+                cout << "The odd numbers are:" <<number << endl; //prints odd values
+            }
+        }
+
+        for(number = n;number <= n; number++) // for loop to increment int value
+        {
+            if(number % 2 ==0) //determines if even 
+            {
+                cout <<"The even numbers are:" <<number <<endl; //prints even values
+            }
+        }
+
+        n++;
+    }
+
+    return 0; //end of program
+}
