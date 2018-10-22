@@ -1,0 +1,4 @@
+size (menentukan panjang string)
+add (mengambil koordinat suatu kata)
+at ()
+find()
