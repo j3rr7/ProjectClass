@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1540194372 source:c:\users\jeremy\documents\repo\maze\main.cpp
+	<iostream>
+	<string>
+	<windows.h>
+	<conio.h>
+
